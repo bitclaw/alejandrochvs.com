@@ -35,7 +35,7 @@ li{
     border-radius: 7px;
 }
 li:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
     background-color: rgba(57, 186, 186, 0.74);
     color: rgba(124, 0, 0, 0.74);
 }
