@@ -1,2 +1,2 @@
 # scratch-project
-My first from web page
+My first from scratch web page.
