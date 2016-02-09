@@ -82,10 +82,28 @@ a li:active{
 }
 
 p{
-    margin-left: 13%;
-    background-color: rgba(57, 186, 186, 0.74);
-    border: 1px solid blue;
-    height: 40em;
-    width: 40em;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #39baba;
+    border-top: 7px solid rgb(154, 59, 59);
+    border-radius: 15px;
+    padding: 1%;
+    height: 20em;
+    color: rgba(124, 0, 0, 0.74);
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
     
+}
+
+p::selection{
+    background-color: rgb(154, 59, 59);
+    color:#39baba;
+    font-size: 30px;
+}
+
+p:hover{
+    background-color: rgb(154, 59, 59);
+    color:#39baba;
+    border-top-color: #39baba;
+    font-size: 30px;
 }
