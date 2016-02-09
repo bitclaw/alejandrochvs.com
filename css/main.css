@@ -24,7 +24,7 @@ ul{
     text-align: center
 }
 
-li{
+ul a li{
     transition: all 0.2s ease-in-out;
     text-align: center;
     margin: 0.5%;
@@ -35,27 +35,27 @@ li{
     border-bottom: 3px solid #39baba;
     border-radius: 7px;
 }
-li:hover{
+ul a li:hover{
     transform: scale(1.2);
     background-color: rgba(57, 186, 186, 0.74);
     color: rgba(124, 0, 0, 0.74);
 }
 
-a li{
+ul a li{
     color: #39baba;
     text-decoration: none;
 }
 
-a li:visited{
+ul a li:visited{
     text-decoration: none;
 }
 
-a li:hover{
+ul a li:hover{
     text-decoration: none;
     color: rgba(124, 0, 0, 0.74);
 }
 
-a li:active{
+ul a li:active{
     text-decoration: none;
     transform: scale(1);
     border-bottom: 3px solid rgb(1, 109, 109);
@@ -81,7 +81,7 @@ a li:active{
     background-position: left;
 }
 
-p{
+div.content p{
     margin-left: 20%;
     margin-right: 20%;
     background-color: #39baba;
@@ -95,22 +95,33 @@ p{
     
 }
 
-p::selection{
+div.content p::selection{
     background-color: #39baba;
     color:rgba(124, 0, 0, 0.74);
     font-size: 30px;
 }
 
-p:hover{
+div.content p:hover{
     background-color: rgb(154, 59, 59);
     color:#39baba;
     border-top-color: #39baba;
     font-size: 30px;
 }
 
-p:selecton:hover{
+div.content p:selecton:hover{
     background-color: #39baba;
     color:rgba(124, 0, 0, 0.74);
+}
+
+div.left-side-panel {
+    display: inline-block;
+    background-color: #39baba;
+    height: 200px;
+    width: 15%;
+    padding: 2%;
+    border-right: 3px solid rgb(154, 59, 59);
+    border-radius: 15px;
+    position: fixed;
 }
 
 :root{
