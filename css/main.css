@@ -122,7 +122,17 @@ div.left-side-panel {
     border-right: 3px solid rgb(154, 59, 59);
     border-radius: 15px;
     position: fixed;
+    color: rgba(124, 0, 0, 0.74);
 }
+
+div.left-side-panel:hover {;
+    background-color: #ffffff;
+    border-right: 3px solid #39baba;
+    border-radius: 15px;
+    position: fixed;
+    color: rgba(124, 0, 0, 0.74);
+}
+
 
 :root{
     background-color: rgb(255, 255, 255);
