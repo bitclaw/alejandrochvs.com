@@ -96,8 +96,8 @@ p{
 }
 
 p::selection{
-    background-color: rgb(154, 59, 59);
-    color:#39baba;
+    background-color: #39baba;
+    color:rgba(124, 0, 0, 0.74);
     font-size: 30px;
 }
 
@@ -106,4 +106,13 @@ p:hover{
     color:#39baba;
     border-top-color: #39baba;
     font-size: 30px;
+}
+
+p:selecton:hover{
+    background-color: #39baba;
+    color:rgba(124, 0, 0, 0.74);
+}
+
+:root{
+    background-color: rgb(255, 255, 255);
 }
