@@ -2,41 +2,33 @@
 <html>
 <head>
 	<title>Example webpage</title>
-    <!--Include jQuery --
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <!--Include the slidepanel plugin --
-    <script type="text/javascript" src="js/jquery.slidepanel.js"></script>
-    <!--Add the css --
-    <link rel="stylesheet" type="text/css" href="css/jquery.slidepanel.css">-->
     <link rel="stylesheet"href="css/main.css">
 </head>
 <body>
-    <h1>
-        <ul class="menu">
-        <li>Menu 1</li>
-        <li>Menu 2</li>
-        <li>Menu 3</li>
-        <li>Menu 4</li>
-        <li>Menu 5</li>
-        <li>Menu 6</li>
-        <li>Menu 7</li>
-        <li>Menu 8</li>
+    <h1 class="menu">
+        <ul>
+        <a><li>Menu 1</li></a>
+        <a><li>Menu 2</li></a>
+        <a><li>Menu 3</li></a>
+        <a><li>Menu 4</li></a>
+        <a><li>Menu 5</li></a>
+        <a><li>Menu 6</li></a>
+        <a><li>Menu 7</li></a>
+        <a><li>Menu 8</li></a>
         </ul>
-    
     </h1>
-    <!--<a id="head" href="external.html" data-slidepanel="panel">Heading</a>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-          $('[data-slidepanel]').slidepanel({
-              orientation: 'top',
-              mode: 'push'
-          });
-      });
-    </script>-->
     
+    <p></p>
+    <p></p>
     
+<script src="js/jquery.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".menu").sticky({topSpacing:0});
+  });
+</script>
     
-
 </body>
+    
 </html>

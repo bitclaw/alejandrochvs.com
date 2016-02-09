@@ -5,7 +5,7 @@
 
 h1{
     color: #39baba;
-    background-color: rgba(124, 0, 0, 0.74);
+    background-color: rgb(154, 59, 59);
     font: ;
     
     padding-left: 2%;
@@ -16,7 +16,8 @@ h1{
     margin-bottom: 1em;
     position: relative;
     border-bottom: 10px solid #39baba;
-    border-radius: 10px
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
 ul{
@@ -40,6 +41,28 @@ li:hover{
     color: rgba(124, 0, 0, 0.74);
 }
 
+a li{
+    color: #39baba;
+    text-decoration: none;
+}
+
+a li:visited{
+    text-decoration: none;
+}
+
+a li:hover{
+    text-decoration: none;
+    color: rgba(124, 0, 0, 0.74);
+}
+
+a li:active{
+    text-decoration: none;
+    transform: scale(1);
+    border-bottom: 3px solid rgb(1, 109, 109);
+    border-radius: 7px;
+}
+
+
 #menu{
     background-color: #717171;
     color: #ebebeb;
@@ -60,8 +83,9 @@ li:hover{
 
 p{
     margin-left: 13%;
-    background-color: aliceblue;
+    background-color: rgba(57, 186, 186, 0.74);
     border: 1px solid blue;
-    height: 4em;
+    height: 40em;
+    width: 40em;
     
 }
