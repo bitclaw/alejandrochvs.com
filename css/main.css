@@ -56,7 +56,7 @@ h1{
     background-color: rgb(154, 59, 59);
     font: ;
     
-
+    padding-left: 1%;
     padding-top: 0.5%;
     margin-top: -1em;
     border-bottom: 10px solid #39baba;
@@ -69,8 +69,34 @@ h1:hover{
     transform: scale(1.01);
 }
 
+h1 img{
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    top: 1em;
+    border-radius: 50%;
+    border: 2px solid #39baba;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 img:hover{
+    display: inline-block;
+    width: 11%;
+    position: relative;
+    border-radius: 0%;
+    border: 5px solid rgba(124, 0, 0, 0.74);
+    background-color: #39baba;
+    z-index: 1;
+    
+    
+}
+
 ul{
-    text-align: center
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    position: relative;
+    bottom: 1.5em;
 }
 
 ul a li{
